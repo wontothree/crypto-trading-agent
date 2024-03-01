@@ -2,8 +2,6 @@ import ccxt
 from datetime import datetime
 
 class Myupbit():
-
-    # 생성자
     def __init__(self, access, secret):
         """
         Parameters
@@ -33,8 +31,8 @@ class Myupbit():
         infos = self.upbit.fetch_ticker(symbol)
         price = infos["close"]
         percent = infos["percentage"] * 100 # 백분율
-        rounded_percent = round(percent, 2) # 소수점 두 자리에서 반올림
-        
+        rounded_percent = round(percent, 3) # 소수점 두 자리에서 반올림
+
         current_time = datetime.now()
         formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
         print(f"{formatted_time } | {symbol}의 가격은 {price}원이고, 전일대비 {rounded_percent}%입니다!")
