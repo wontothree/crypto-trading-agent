@@ -1,4 +1,4 @@
-from classes import Myupbit
+from myupbit import Myupbit
 from observe import Observe
 
 access_key = "TQcHNv10q7AG2FxSkEhadyQNmf7JEvVmhmoTqQzV"
