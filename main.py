@@ -1,4 +1,4 @@
-from asset.upbit import Upbit
+from trading_assets.upbit import Upbit
 
 
 sewon_upbit = Upbit()
