@@ -1,4 +1,11 @@
 import discord, asyncio, datetime, pytz
+import yaml
+
+
+with open('config.yaml', encoding='UTF-8') as f:
+    _cfg = yaml.load(f, Loader=yaml.FullLoader)
+DISCORD_BOT_TOKEN = _cfg["DISCORD_BOT_TOKEN"]
+
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -42,5 +49,5 @@ async def on_message(message):
                               
 
 # Token of bot
-client.run('MTIxMzA3MTExNjU3MTI1MDcyOA.GgBwpV.hGA3iFQchP8_S0vfBv3grOjLNqTgyjac1wbVUY')
+client.run('DISCORD_BOT_TOKEN')
 

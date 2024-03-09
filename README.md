@@ -1,5 +1,8 @@
 # Auto-trading
 
+- Coin(binance, upbit)
+- Stock
+
 ## Function
 
 - 관찰하는 함수

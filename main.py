@@ -1,12 +1,7 @@
-from myupbit import Myupbit
-from observe import Observe
+from asset.upbit import Upbit
 
-access_key = "TQcHNv10q7AG2FxSkEhadyQNmf7JEvVmhmoTqQzV"
-secret_key = "Pywp6HfRHcXqoRGcJRQZKF9C2FTGBekCZWQpKk0R"
 
-sewon_upbit = Myupbit(access_key, secret_key)
-
-observe = Observe()
+sewon_upbit = Upbit()
 
 # 시장가 주문
 # upbit.create_market_order("TRX/KRW", "buy", 10000, 1) # 10,000 x 1 원 어치
@@ -18,8 +13,7 @@ observe = Observe()
 
 while True:
     # sewon_upbit.watch_and_order("BTC/KRW", 100000, 0)
-    observe.observe("BTC/KRW")
-
+    sewon_upbit.observe("BTC/KRW")
 
 
 # try :
