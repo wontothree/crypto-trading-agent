@@ -1,7 +1,15 @@
 # Auto-trading
 
-- Coin(binance, upbit)
+- Coin (Binance, Upbit)
 - Stock
+
+## Dependency
+
+[ccxt](https://github.com/ccxt/ccxt) : A Javascript / Python / PHP library for cryptocurrency trading and e-commerce with support for many bitcoin/ether/altcoin exchange markets and merchant APIs.
+
+```
+pip install ccxt 
+```
 
 ## Function
 
@@ -53,11 +61,3 @@ Index : SQZMOM_LB
 |스캘핑|3분 이내|
 |데이트트레이딩|하루|
 |스윙 매매|하루 이상 일주일 이내|
-
-## Dependency
-
-[ccxt](https://github.com/ccxt/ccxt) : A Javascript / Python / PHP library for cryptocurrency trading and e-commerce with support for many bitcoin/ether/altcoin exchange markets and merchant APIs.
-
-```
-pip install ccxt 
-```
