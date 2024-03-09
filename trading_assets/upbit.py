@@ -15,8 +15,6 @@ class Upbit():
         """
         Parameters
         ----------
-        access : access key
-        secret : secret key
         is_buy : 포지션을 결정하는 스위칭 역할 변수
         """
         self.upbit = ccxt.upbit()
@@ -30,7 +28,7 @@ class Upbit():
 
         Parameters
         ----------
-        symbol : coin.
+        symbol : coin symbol.
             ex) BTC/KRW, DOGE/KRW, TRX/KRW, XRP/KRW.
         """
 
