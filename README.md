@@ -13,6 +13,8 @@ pip install ccxt
 
 ## Trading System
 
+example
+
 ```
 if (5분봉 차트에서 protected highs & lows에서 파란색 삼각형이 나온다. and 그것이 2분동안 유지된다.)
     진입가 = BTC x 11의 10만원 어치 시장가
@@ -24,10 +26,9 @@ if (5분봉 차트에서 protected highs & lows에서 파란색 삼각형이 나
             손절가 = 현재가
 ```
 
-## Visualizing System
+## TO-do
 
-## Reporting System
+- [ ] Visualizing System
+- [ ] Reporting System: 매수, 매도 결정 시 디스코드 봇이 PUSH 알림을 보낸다.
 
-매수, 매도 결정 시 디스코드 봇이 PUSH 알림을 보낸다.
-
-## Review System
+- [ ] Review System
