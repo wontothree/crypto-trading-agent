@@ -1,7 +1,6 @@
 # Crypto Trading Agent
 
 - Coin (Binance, Upbit)
-- Stock
 
 ## Getting Started
 
