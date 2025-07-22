@@ -1,6 +1,5 @@
 from trading_assets.upbit import Upbit
 
-
 sewon_upbit = Upbit()
 
 # 시장가 주문
