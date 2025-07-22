@@ -1,6 +1,6 @@
-# Crypto Trading Agent
+# Crypto Trading System
 
-- Coin (Binance, Upbit)
+- Crypto (Binance, Upbit)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ DISCORD_BOT_TOKEN : ""
 JARVIS on online
 ```
 
-## Dependency
+# Dependency
 
 [ccxt](https://github.com/ccxt/ccxt) : A Javascript / Python / PHP library for cryptocurrency trading and e-commerce with support for many bitcoin/ether/altcoin exchange markets and merchant APIs.
 
@@ -44,6 +44,8 @@ JARVIS on online
 pip install ccxt
 
 pip install discord.py
+
+pip install pyyaml
 
 /Applications/Python\ 3.11/Install\ Certificates.command
 ```

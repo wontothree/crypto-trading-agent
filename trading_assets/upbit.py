@@ -3,12 +3,11 @@ from datetime import datetime
 
 import yaml
 
-
 with open('config.yaml', encoding='UTF-8') as f:
     _cfg = yaml.load(f, Loader=yaml.FullLoader)
+
 UPBIT_ACCESS_KEY = _cfg["UPBIT_ACCESS_KEY"]
 UPBIT_SECRET_KEY = _cfg["UPBIT_SECRET_KEY"]
-
 
 class Upbit():
     def __init__(self):
